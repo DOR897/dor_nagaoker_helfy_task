@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 
-import TaskForm from "./components/TaskForm";
-import TaskFilter from "./components/TaskFilter";
-import TaskList from "./components/TaskList";
+import TaskForm from "../src/components/TaskForm";
+import TaskFilter from "../src/components/TaskFilter";
+import TaskList from "../src/components/TaskList";
 
 import {
   getTasks,
@@ -10,9 +10,9 @@ import {
   updateTask,
   deleteTask,
   toggleTask,
-} from "./services/api";
+} from "../src/services/api";
 
-import "./styles/App.css";
+import "../src/styles/App.css";
 
 function App() {
   const [tasks, setTasks] = useState([]);

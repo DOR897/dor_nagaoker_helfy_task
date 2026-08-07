@@ -78,4 +78,4 @@ The endless carousel is implemented with React and vanilla JavaScript without an
 Total: approximately 3 hours and 40 minutes.
 
 ## Screenshot  
-![alt text](image.png)
+![alt text](image-1.png)
