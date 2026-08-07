@@ -43,7 +43,7 @@ export async function updateTask(id, task) {
 }
 
 export async function deleteTask(id) {
-  const response = await fetch(`${API_URL}/${id}`, {
+  const response = await fetch(`${Backend_API_URL}/${id}`, {
     method: "DELETE",
   });
 
